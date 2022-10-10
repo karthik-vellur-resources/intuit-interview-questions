@@ -1,0 +1,1 @@
+This folder contains information about the craft demo specific to Canadian hiring.

@@ -1,0 +1,62 @@
+site_name: Intuit Assess for Awesome
+repo_url: https://github.intuit.com/poolhiring/interview-questions
+
+nav:
+  - Home: 'index.md'
+  - Craft:
+    - FullStack:
+      - Weather App: 'fullstack/craft/weather-app/WeatherApp.md'
+      - Marketplace: 'fullstack/craft/MarketPlace.md'
+    - BackEnd:
+      - Player DB: 'backend/craft/PlayerDB/player_db.md'
+      - Photography Microservice: 'backend/craft/photography-service-app/photography-service-app.md'
+      - Rate Limiting: 'backend/craft/RateLimiting.md'
+    - FrontEnd:
+      - Worldwide countries information Web App: 'frontend/craft/CountriesWebApp.md'
+      - Self Employed Application Web App: 'frontend/craft/SelfEmployedWebApp.md'
+    - DataScience:
+      - Quickbooks retention assignment: 'datascience/craft/QBRetentionAssignment/quickbooks_retention_assignment.md'
+    - Canadian Hiring:
+      - Candidate instructions: 'canada/market-place-candidate-instructions.md'
+      - Assessor instructions: 'canada/market-place-assessor-instructions.md'
+  - Phone Interview:
+    - BackEnd:
+      - Checksum: 'backend/tpi/checksum/checksum.md'
+      - Photography Service: 'backend/tpi/photography-service/photography-service.md'
+      - Rate Limiting: 'backend/tpi/rate-limiting/rate-limiting.md'
+      - Queue: 'backend/tpi/queue/ImplementAQueue.md'
+      - Sudoku: 'backend/tpi/sudoku/sudoku.md'
+      - Weather Stats: 'backend/tpi/weather-stats/weather-stats.md'
+      - Task Schedule Sort: 'backend/tpi/task_scheduling/task_scheduling.md'
+      - Small Business Relationships: 'backend/tpi/small_business_relationships/small_business_relationships.md'
+      - Service Scheduling: 'backend/tpi/service_scheduling/service_scheduling.md'
+    - FrontEnd:
+      - Async Programming with API's: 'frontend/tpi/async_programming_with_apis.md'
+      - Image Carousel: 'frontend/tpi/image_carousel.md'
+      - Sum Of Two Numbers: 'frontend/tpi/sum_of_two_numbers.md'
+      - Matrix Symmetry: 'frontend/tpi/matrix_symmetry.md'
+      - Render Data: 'frontend/tpi/render_data.md'
+  - Craft Demo - Instructions for A4A team: 'setup-instructions.md'
+# Configuration
+theme:
+  name: material
+  icon:
+    logo: material/rocket-launch
+  features:
+#    - navigation.tabs
+#    - navigation.tabs.sticky
+
+plugins:
+  - search
+  - macros
+
+# Extensions
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite:
+      linenums: true
+  - meta
+  - pymdownx.highlight
+  - pymdownx.superfences

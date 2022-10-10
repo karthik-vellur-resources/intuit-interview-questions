@@ -1,0 +1,10 @@
+CODEOWNERS @assess-for-awesome/a4a-superadmin
+
+/Contributing/pull_request_template.md @assess-for-awesome/a4a-superadmin
+/README.md @assess-for-awesome/a4a-superadmin
+/CONTRIBUTING.md @assess-for-awesome/a4a-superadmin
+/Jenkinsfile @assess-for-awesome/a4a-superadmin
+
+/docs/backend/ @assess-for-awesome/backend-approvers
+/docs/frontend/ @assess-for-awesome/frontend-approvers
+/docs/fullstack/ @assess-for-awesome/fullstack-approvers
